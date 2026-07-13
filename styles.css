@@ -294,40 +294,6 @@ p { margin: 0 0 16px; color: var(--ink-muted); }
 }
 .service-card p { font-size: 0.92rem; margin: 0; }
 
-.pricing-table-wrap {
-  margin-top: 48px;
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 32px;
-  box-shadow: var(--shadow);
-  max-width: 480px;
-}
-.pricing-table-wrap h3 { margin-bottom: 18px; }
-.pricing-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-.pricing-table th {
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.76rem;
-  font-weight: 600;
-  color: var(--sage-dark);
-  padding-bottom: 10px;
-  border-bottom: 2px solid var(--sage-light);
-}
-.pricing-table td {
-  padding: 12px 0;
-  border-bottom: 1px solid var(--border);
-  color: var(--ink);
-  font-weight: 500;
-}
-.pricing-table tr:last-child td { border-bottom: none; }
-.pricing-table td:last-child,
-.pricing-table th:last-child { text-align: right; }
-
 .insurance-note {
   margin-top: 28px;
   font-size: 0.88rem;
@@ -373,10 +339,18 @@ p { margin: 0 0 16px; color: var(--ink-muted); }
   grid-template-columns: 1fr 1fr;
   gap: 56px;
 }
+.book-online-btn { display: inline-block; margin-top: 8px; }
+.booking-note {
+  margin: 14px 0 0;
+  font-size: 0.88rem;
+  color: var(--sage-dark);
+  font-weight: 500;
+}
 .contact-details {
   list-style: none;
-  margin: 24px 0;
-  padding: 0;
+  margin: 24px 0 0;
+  padding: 24px 0 0;
+  border-top: 1px solid var(--border);
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -400,13 +374,6 @@ p { margin: 0 0 16px; color: var(--ink-muted); }
   color: var(--sage-dark);
   font-weight: 600;
 }
-.contact-note {
-  font-size: 0.85rem;
-  color: var(--ink-muted);
-  border-top: 1px dashed var(--border);
-  padding-top: 16px;
-}
-
 .contact-form {
   background: var(--white);
   border: 1px solid var(--border);
